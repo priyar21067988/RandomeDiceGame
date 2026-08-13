@@ -8,7 +8,7 @@ function RandomNumber() {
 
 
 var randomediceImage = "dice" + RandomNumber() + ".png";
-var randomediceImageSrc = "images/" + randomediceImage;
+var randomediceImageSrc =  randomediceImage;
 
 document.querySelectorAll("img")[0].setAttribute("src", randomediceImageSrc);
 
@@ -16,7 +16,7 @@ function RandomNumber2(){
     var randomNum2 = Math.floor(Math.random()*6)+1;
     return randomNum2;
 }
-var randomdiceImg2 = "images/dice" + RandomNumber2() + ".png";
+var randomdiceImg2 = "dice" + RandomNumber2() + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomdiceImg2);
 
 
